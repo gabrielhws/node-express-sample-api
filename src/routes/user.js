@@ -5,20 +5,20 @@ import users from "../controllers/users";
 
 module.exports = function (app) {
 
-    app.route('/user/me')
+    app.route('/users/me')
         .get(auth.hasTokenHeader, auth.hasAuthorization, users.me)
         .put(auth.hasTokenHeader, auth.hasAuthorization, users.updateProfile)
         .delete(auth.hasTokenHeader, auth.hasAuthorization, users.deleteProfile);
 
-    app.route('/user/disable')
+    app.route('/users/disable')
         .put(auth.hasTokenHeader, auth.hasAuthorization, users.disableProfile);
 
-    app.route('/user/avatar')
+    app.route('/users/avatar')
         .put(auth.hasTokenHeader, auth.hasAuthorization, users.updateAvatar);
 
-    app.route('/user/gallery/:imageId')
+    app.route('/users/gallery/:imageId')
         .put(auth.hasTokenHeader, auth.hasAuthorization, users.removeImagesInGallery);
 
-    app.route('/user/activeMoip')
+    app.route('/users/activeMoip')
         .post(auth.hasTokenHeader, auth.hasAuthorization, users.activeMoip);
 };

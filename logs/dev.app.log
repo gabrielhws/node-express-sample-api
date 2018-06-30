@@ -1,0 +1,21 @@
+[2018-01-24T21:17:33.086] [INFO] startup - RESTful API Node.js running in port:3000
+[2018-01-24T21:17:33.196] [INFO] startup - Connection with NodeJs Sample API DB succeeded.
+[2018-01-24T21:19:20.994] [INFO] startup - RESTful API Node.js running in port:3000
+[2018-01-24T21:19:21.063] [INFO] startup - Connection with NodeJs Sample API DB succeeded.
+[2018-06-22T23:02:21.376] [INFO] startup - RESTful API Node.js running in port:3000
+[2018-06-22T23:02:21.711] [FATAL] startup - {"name":"MongoNetworkError","message":"failed to connect to server [your_db_beta_IP:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND your_db_beta_IP your_db_beta_IP:27017]"}
+[2018-06-22T23:07:37.062] [INFO] startup - RESTful API Node.js running in port:3000
+[2018-06-22T23:07:37.326] [FATAL] startup - {"name":"MongoNetworkError","message":"failed to connect to server [your_db_beta_IP:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND your_db_beta_IP your_db_beta_IP:27017]"}
+[2018-06-22T23:58:13.611] [INFO] startup - RESTful API Node.js running in port:3001
+[2018-06-22T23:58:13.871] [FATAL] startup - {"name":"MongoNetworkError","message":"failed to connect to server [your_db_beta_IP:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND your_db_beta_IP your_db_beta_IP:27017]"}
+[2018-06-22T23:59:11.970] [INFO] http - ::1 - - "GET / HTTP/1.1" 200 46 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+[2018-06-22T23:59:37.327] [INFO] startup - RESTful API Node.js running in port:3001
+[2018-06-22T23:59:37.611] [FATAL] startup - {"name":"MongoNetworkError","message":"failed to connect to server [your_db_beta_IP:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND your_db_beta_IP your_db_beta_IP:27017]"}
+[2018-06-22T23:59:39.221] [INFO] http - ::1 - - "GET / HTTP/1.1" 200 46 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+[2018-06-22T23:59:39.839] [ERROR] http - ::1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3001/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+[2018-06-23T00:01:24.712] [INFO] startup - RESTful API Node.js running in port:3001
+[2018-06-23T00:01:24.952] [FATAL] startup - {"name":"MongoNetworkError","message":"failed to connect to server [your_db_beta_IP:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND your_db_beta_IP your_db_beta_IP:27017]"}
+[2018-06-23T00:02:14.103] [INFO] startup - RESTful API Node.js running in port:3001
+[2018-06-23T00:02:14.329] [FATAL] startup - {"name":"MongoNetworkError","message":"failed to connect to server [your_db_beta_IP:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND your_db_beta_IP your_db_beta_IP:27017]"}
+[2018-06-26T23:01:44.013] [INFO] startup - RESTful API Node.js running in port:3001
+[2018-06-26T23:01:44.045] [FATAL] startup - {"name":"MongoNetworkError","message":"failed to connect to server [your_db_beta_IP:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND your_db_beta_IP your_db_beta_IP:27017]"}
