@@ -218,14 +218,6 @@ UserSchema.methods.createToken = function (user) {
     return jwt.encode(payload, config.token_secret);
 };
 
-UserSchema.statics.getByCode = function (code, cb) {
-    log.trace('Enter in GetByCode');
-    let _code = code.toString();
-
-    return this.findOne({code:_code})
-        .select('_id username name displayName email reviews roles profile birth_date cover_image image gallery gender school work locate social_medias languages credits my_projects configuration.profile created')
-        .exec(cb);
-};
 
 UserSchema.statics.getById = function (id, cb) {
     log.trace('Enter in GetById');
