@@ -22,6 +22,7 @@ Este é um projeto conceitual e pode estar desatualizado. Se tiver dúvidas, me 
 * Babel
 * Mongoose
 * [MANDRILL](https://www.mandrill.com)
+* [SENDGRID](https://sendgrid.com)
 * [MOIP - Brazilian Payment Platform](https://dev.moip.com.br/)
 * [Stripe SDK](https://stripe.com/docs/api)
 * PayPal SDK
