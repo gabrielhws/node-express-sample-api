@@ -27,6 +27,14 @@ module.exports = {
         from_name: process.env.MANDRILL_FROM_NAME || 'You Project Name',
         to: process.env.MANDRILL_TO || 'your_email@domain.com'
     },
+    sendgrind:{
+        key: process.env.SENDGRID_API_KEY || '',
+        templateId: process.env.MY_TEMPLATE_ID || '',
+        from: process.env.SENDGRID_FROM || '',
+        from_name: process.env.SENDGRID_FROM_NAME || '',
+        to: process.env.SENDGRID_TO || '',
+        sandbox_mode: true
+    },
     stripe: {
         secret_key: process.env.STRIPE_SECRET || 'your_secret_key_test',
         currency: 'BRL',

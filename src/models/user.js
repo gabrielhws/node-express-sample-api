@@ -11,6 +11,7 @@ import config from "../config/config";
 import jwt from "jwt-simple";
 import crypto from "crypto";
 import mandrill from "../middleware/mandrill";
+import sendgrid from "../middleware/sendgrid";
 import log4js from "log4js";
 
 const Schema = mongoose.Schema;
@@ -279,6 +280,13 @@ UserSchema.statics.sendResetPasswordEmail = function (domain, token, user) {
             log.debug('Reset email created.');
         }
     });
+    sendgrid.sendMail(mail)
+        .then(function () {
+            log.info('Reset email created.');
+        })
+        .catch(function (e) {
+            log.fatal('Failed to send the email: %s', e.error);
+        });
 };
 
 UserSchema.statics.sendConfirmAccount = function (origin, user) {
